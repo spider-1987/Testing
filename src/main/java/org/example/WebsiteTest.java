@@ -75,9 +75,6 @@ public class WebsiteTest {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[normalize-space()='Logout']")).click();
     }
-
-
-
     public static void main(String[]args) throws InterruptedException {
         driver = new ChromeDriver();
         WebsiteTest hrm = new WebsiteTest();
